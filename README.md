@@ -14,17 +14,23 @@ The mechanics are simple but addictive: a pattern of white tiles appears briefly
 - **Dark Mode UI:** A clean, professional aesthetic designed for focus and reduced eye strain.
 
 ## 🚀 HOW TO RUN THE GAME
-⚠️ SECURITY NOTICE:
-If you see a red bar: "Microsoft has blocked macros because the source of this file is untrusted"
-➔ Close the Excel workbook.
-➔ Right-click the file ➔ Properties.
-➔ General Tab ➔ Locate Security (at the bottom).
-➔ Enable "Unblock" ➔ Click Apply. ➔ Click OK.
-➔ Re-open the file and enable content.
-1. **Open the File:** Launch the game using Microsoft Excel. Ensure the file extension is `.xlsm`.
-2. **Enable Macros:** Upon opening, Excel will display a yellow **"Security Warning"** bar. Click **"Enable Content"** to allow the game logic to function.
-3. **Automatic Initialization:** The game will run its setup routine automatically, preparing the interface.
-4. **Start Playing:** Click the **"Start Game"** button on the main sheet to begin your first level.
+1. **Open the File:** Ensure you are using Microsoft Excel and the file extension is `.xlsm`.
+
+2. **Enable Editing:** If a yellow bar appears **(Protected View)**, click **"Enable Editing"**. This is necessary to move past the read-only mode.
+
+⚠️ **IMPORTANT: RED SECURITY BAR (If it appears after editing is enabled)**
+If Excel now shows a red bar: "Microsoft has blocked macros because the source of this file is untrusted":
+
+➔ **Close** the Excel workbook.
+➔ **Right-click** the `.xlsm` file in your folder ➔ **Properties**.
+➔ **General Tab** ➔ Locate **Security** at the bottom ➔ Check **"Unblock"**.
+➔ Click **Apply** and **OK**, then **re-open** the file.
+
+3. **Enable Content:** Once the red bar is gone (or if you only see a yellow Security Warning), click "Enable Content" to activate the VBA logic.
+
+4. **Automatic Initialization:** The game will run its setup routine, preparing the board and the record system.
+
+5. **Start Playing:** Click the **"Start Game"** button on the main sheet to begin.
 
 ## 💻 SYSTEM REQUIREMENTS
 - **Software:** Microsoft Excel (2010 or newer recommended for full RGB color support).
