@@ -14,7 +14,7 @@ The mechanics are simple but addictive: a pattern of white tiles appears briefly
 - **Dark Mode UI:** A clean, professional aesthetic designed for focus and reduced eye strain.
 
 ## 🚀 HOW TO RUN THE GAME
-⚠️ SECURITY NOTICE
+⚠️ SECURITY NOTICE:
 If you see a red bar: "Microsoft has blocked macros because the source of this file is untrusted"
 ➔ Close the Excel workbook.
 ➔ Right-click the file ➔ Properties.
